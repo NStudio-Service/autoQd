@@ -64,7 +64,7 @@
 				{
 					name: item.name,
 					value: {
-						"stringValue": "中国"
+						"stringValue": "漳州市"
 					}
 				}
 			);
