@@ -1,0 +1,47 @@
+	formData.forEach(function (item) {
+		if (item.title == null) {
+			return;
+		}
+		if (item.title.indexOf("体温(校内)") !== -1) {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						stringValue: "37.3以下"
+					}
+				}
+			);
+			return;
+		}
+		if (item.title.indexOf("是否出现发热、咳嗽、胸闷、呼吸困难等症状？") !== -1) {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						stringValue: "否"
+					}
+				}
+			);
+			return;
+		}
+		if (item.title === "本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒和不实的情况，更无遗漏之处。") {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						stringValue: "是"
+					}
+				}
+			);
+		}
+		if (item.title === "是否完成填报") {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						stringValue: "已完成"
+					}
+				}
+			);
+		}
+	});
