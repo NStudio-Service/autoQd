@@ -34,6 +34,21 @@
 				}
 			);
 		}
+		if (item.title === "当前所在的省市区") {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						"addressValue": {
+							"province": "福建省",
+							"city": "漳州市",
+							"area": "龙海市",
+							"fullValue": "福建省漳州市龙海市"
+						}
+					}
+				}
+			);
+		}
 		if (item.title === "是否完成填报") {
 			editData.push(
 				{
