@@ -49,12 +49,32 @@
 				}
 			);
 		}
+		if (item.title === "当前所在国家") {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						"stringValue": "中国"
+					}
+				}
+			);
+		}
+		if (item.title === "当前所在的地理位置") {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						"stringValue": "中国"
+					}
+				}
+			);
+		}
 		if (item.title === "是否完成填报") {
 			editData.push(
 				{
 					name: item.name,
 					value: {
-						stringValue: "已完成"
+						stringValue: "漳州市"
 					}
 				}
 			);
