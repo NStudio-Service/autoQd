@@ -29,7 +29,7 @@ formData.forEach(function (item) {
 		return;
 	}
 	if (item.title === "是否就诊或住院") {
-		editData.push({name: item.name, value: {stringValue: ""}});
+		editData.push({name: item.name, value: {stringValue: "否"}});
 		return;
 	}
 	if (item.title === "是否完成填报") {
