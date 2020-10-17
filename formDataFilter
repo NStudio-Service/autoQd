@@ -69,6 +69,16 @@
 				}
 			);
 		}
+		if (item.title === "是否就诊或住院") {
+			editData.push(
+				{
+					name: item.name,
+					value: {
+						stringValue: ""
+					}
+				}
+			);
+		}
 		if (item.title === "是否完成填报") {
 			editData.push(
 				{
