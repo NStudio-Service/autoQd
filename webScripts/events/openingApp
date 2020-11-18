@@ -1,4 +1,3 @@
 if(app.versionCode<=95){
   toast("请升级至最新版本，否则可能无法正常一键打卡");
-  openApp("UpdatePack");
 }
