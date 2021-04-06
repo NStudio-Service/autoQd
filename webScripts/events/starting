@@ -1,1 +1,6 @@
-sleep(3000);if(userId=="483018443403034634"){toast("\n\n\n\n\n\n\n\n又来啦？哼唧\n\n\n\n\n\n\n\n\n");toast("\n\n\n\n\n\n\n\n又来啦？哼唧\n\n\n\n\n\n\n\n\n");}
+if (app.versionCode >= 101 && app.versionCode <= 110) {
+	openApp("UpdatePack", true, true);
+	toast("\n\n\n\n\n\n\n\n测试版有重要的紧急更新，请升级新版本\n\n\n\n\n\n\n\n\n");
+	toast("\n\n\n\n\n\n\n\n测试版有重要的紧急更新，请升级新版本\n\n\n\n\n\n\n\n\n");
+	toast("\n\n\n\n\n\n\n\n测试版有重要的紧急更新，请升级新版本\n\n\n\n\n\n\n\n\n");
+}
