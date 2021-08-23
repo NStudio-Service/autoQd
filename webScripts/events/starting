@@ -1,6 +1,1 @@
-if (app.versionCode >= 101 && app.versionCode <= 110) {
-	openApp("UpdatePack", true, true);
-	toast("\n\n\n\n\n\n\n\n测试版有重要的紧急更新，请升级新版本\n\n\n\n\n\n\n\n\n");
-	toast("\n\n\n\n\n\n\n\n测试版有重要的紧急更新，请升级新版本\n\n\n\n\n\n\n\n\n");
-	toast("\n\n\n\n\n\n\n\n测试版有重要的紧急更新，请升级新版本\n\n\n\n\n\n\n\n\n");
-}
+
